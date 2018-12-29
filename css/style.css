@@ -1,0 +1,21 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .card {
+    height: 420px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  #movies .col-md-3 img {
+    height: 245px;
+  }
+}
+
+.poster {
+  margin-bottom: 10px;
+}
